@@ -1,0 +1,81 @@
+body{
+  background-image: url("background.jpg");
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    text-shadow:    
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa;
+} 
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 42px;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa;
+}
+
+button{
+  border-color: green;
+  font-size: 30px;
+  color:green;
+  padding: 1px;
+  border-radius: 10px;
+  background: radial-gradient(circle, #fff, #808080);
+}
+
+button:hover{
+  background: radial-gradient(circle, #808080, #fff);
+}
+
+button:active{
+  background: linear-gradient(to left, green, green);
+  color:white;
+}
+
+input{
+  height: 50px;
+  width: 70px;
+  font-size: 50px;
+}
+
+.pam{
+    margin: 60px;
+    font-size: 48px;
+    text-align: center;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa;
+}
+
+#sticksContainer {
+    text-align: center;
+}
+
+#message {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 42px; 
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa;
+}
+
+#playerForm {
+    text-align: center;
+}
